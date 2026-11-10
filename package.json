@@ -1,0 +1,26 @@
+{
+  "name": "dsh-yunqi-memory",
+  "version": "0.1.0",
+  "description": "DSH 记忆插件：状态层 + 判断账本 + 反向谱系 + 受控人格成长。存储只追加，检索按线索现算，注入只放四样。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "persona"
+  ],
+  "license": "MIT"
+}
